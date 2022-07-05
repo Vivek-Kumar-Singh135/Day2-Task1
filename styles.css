@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+span {
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    background: linear-gradient(50deg, black, gray);
+    color: white;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.details {
+    padding-left: 10px;
+    background: linear-gradient(135deg, blue, aqua);
+}
+
+.button {
+    background: linear-gradient(50deg, blue, black);
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.buttondesign {
+    border: 2px solid palegoldenrod;
+    background: linear-gradient(135deg, red, orange);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttondesign:hover {
+    box-shadow: 0 0 15px 0 black;
+}
